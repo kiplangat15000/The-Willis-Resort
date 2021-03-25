@@ -1,0 +1,40 @@
+
+h1 {
+    background-color: #f2edd7;
+    height: 2cm;
+}
+
+
+#links {
+    background-color: rgb(148, 196, 160);
+    height: 3cm;
+    margin-top: -0.8cm;
+    
+
+}
+
+a {
+    margin: 0 auto;
+    display: inline-flex;
+    margin-left: 6cm;
+    font-size: 30px;
+    justify-content: space-between;
+}
+
+
+#textleft {
+    background-color: darksalmon;
+    height: 2cm;
+    font-size: 25px;
+    margin-top: 0cm;
+}
+
+#dining1{
+    background-image: url(./images/dining1.jpg);
+    padding: 8cm;
+    padding-top: 8cm;
+    height: auto;
+    background-position: center center;
+    margin: auto;
+}
+
