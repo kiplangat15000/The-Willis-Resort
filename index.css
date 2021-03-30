@@ -1,17 +1,18 @@
-h1{
+h1 {
     background-color: #f2edd7;
     height: 2cm;
 }
 
 
-#links{
+#links {
     background-color: rgb(148, 196, 160);
     height: 3cm;
     margin-top: -0.8cm;
     /* text-align:center; */
-    
+
 }
-a{
+
+a {
     margin: 0 auto;
     display: inline-flex;
     margin-left: 6cm;
@@ -19,7 +20,7 @@ a{
     justify-content: space-between;
 }
 
-#textleft{
+#textleft {
     background-color: darksalmon;
     height: 2cm;
     font-size: 25px;
@@ -27,26 +28,28 @@ a{
 }
 
 
-#firstImage{
+#firstImage {
     background-image: url("./images/filippo-bortolotto-2HGyfo4De_o-unsplash.jpg");
     padding: 8cm;
     height: auto;
     background-position: center center;
     margin: auto;
     height: 2cm;
+    box-sizing: border-box;
+    border-radius: 2cm;
 }
 
-#wel{
+#wel {
     text-align: left top;
     font-size: 2cm;
     color: deepskyblue;
 }
 
-#footer{
+#footer {
     display: inline-block;
 }
 
-#location{
+#location {
     background-color: rgb(241, 224, 219);
     height: 3cm;
     font-size: 25px;
@@ -58,15 +61,61 @@ a{
     align-items: center;
 }
 
-#wp{
+#wp {
     font-size: 40px;
     margin-top: -2cm;
 }
 
 
-#icons{
+
+
+#contacts {
+    text-align: center;
+    box-sizing: border-box;
+    height: 2cm;
+    background-color: whitesmoke;
+    font-size: 40px;
+    border-radius: 1cm;
+}
+
+
+#contactDetails {
+    text-align: center;
+    box-sizing: border-box;
+    height: 5cm;
+    background-color: rgb(245, 241, 241);
+    font-size: 40px;
+    margin-top: -1.2cm;
+    border-radius: 1cm;
+    color: rgb(226, 122, 122);
+}
+em{
+    color: rgb(152, 152, 216);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* #amenities {
+    justify-content: space-between;
+    margin-left: 2cm;
+    display: flex;
+    
+} */
+
+#alt{
+    font-size: 1cm;
+    margin-top: 10cm;
+}
+
+#icons {
     height: 2cm;
     text-align: center;
     font-size: 30px;
     color: black;
-    }
+}
+
+#amenities{
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: -2cm;
+}
